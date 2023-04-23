@@ -7,7 +7,7 @@ You can find the dataset here : https://www.kaggle.com/datasets/mksaad/arabic-se
 # Preprocessing
 The first step in the preprocessing is to create a TensorFlow Keras text dataset for training and validation. The data is split into a training subset and a validation subset using a validation split of 0.2. The TextVectorization layer is used to preprocess the input data. The maximum number of features, embedding dimension, and sequence length are defined, and a custom standardization function is created to preprocess the input data. The TextVectorization layer is then adapted to the text data from the training dataset to generate the vocabulary. Finally, the vectorize_text function is defined to vectorize the text and labels.
 # Model
-The next step is to define a TensorFlow Keras sequential model. The model consists of an embedding layer, two bidirectional LSTM layers, two dense layers, and a dropout layer. The activation function for the output layer is set to sigmoid.
+The next step is to define a TensorFlow Keras sequential model. The model consists of an embedding layer, two bidirectional LSTM layers, two dense layers, and a dropout layer. The activation function for the output layer is set to sigmoid for a binary classification.
 
 # Training
 The model is trained using the training dataset and validated using the validation dataset. The optimizer used is Adam, and the loss function used is binary cross-entropy. The number of epochs is set to 5
