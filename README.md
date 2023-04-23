@@ -14,4 +14,4 @@ The model is trained using the training dataset and validated using the validati
 # Results
 The model achieves an accuracy of 97% on the test dataset.
 # Conclusion
-In conclusion, this project demonstrates how to train a bidirectional LSTM model to classify movie reviews as positive or negative using TensorFlow and Keras. The code can be easily adapted to other text classification tasks with similar datasets.
+In conclusion, this project demonstrates how to train a bidirectional LSTM model to classify Arabic tweets as positive or negative using TensorFlow and Keras. The code can be easily adapted to other text classification tasks with similar datasets.
